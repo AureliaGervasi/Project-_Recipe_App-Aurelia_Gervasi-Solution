@@ -10,7 +10,7 @@ label {
 }
 
 header {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgb(184, 184, 184);
 }
 
 img {
@@ -21,7 +21,7 @@ img {
 
 /* zebra striping */
 tbody tr:nth-child(odd) {
-  background-color: #fff0c7;
+  background-color: #dbdbdb;
 }
 
 /* typography */
@@ -55,7 +55,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   overflow:hidden;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 15px rgb(184, 184, 184);
 }
 
 .content_td p {
@@ -63,6 +63,13 @@ table {
   max-height: 100px;
   overflow-y: auto;
   text-overflow: ellipsis;
+}
+
+input, textarea {
+  border-style: inset;
+  border-width: 2px;
+  width: 95%;
+
 }
 
 /* Column Size for thead */
